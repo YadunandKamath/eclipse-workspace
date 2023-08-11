@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+
+    body{
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container{
+      height: 748px;
+      width: 748px;
+      display: grid;
+      gap: 9px;
+      background-color: black;
+      grid-template: 414px 130px 155px 20px / 320px 198px 153px 50px;
+    }
+
+    .red{
+      background-color: red;
+    }
+
+    .white{
+      background-color: beige;
+    }
+
+    .w1{
+      grid-column: span 3;
+    }
+    
+    .w2{
+      grid-row: span 2;
+    }
+
+    .w3{
+      grid-area: 2 / 2 / 4 / 4;
+    }
+
+    .blue{
+      background-color: navy;
+      border-bottom: 10px solid;
+      grid-area: 2 / 4 / 3 / 5;
+    }
+
+    .w4{
+      height: 20px;
+      width: 320px;
+      grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .yellow{
+      background-color: yellow;
+      height: 20px;
+      width: 198px;
+      grid-area: 4 / 2 / -1 / 3;
+    }
+
+    .black{
+      background-color: darkgrey;
+      width: 153px;
+      height: 20px;
+    }
+
+    .w5{
+      height: 186px;
+      width: 50px;
+      grid-area: 3 / 4 / -1 / 5;
+    }
+
+    
+
+    
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="container">
+    <div class="red"></div>
+    <div class="white w1"></div>
+    <div class="white w2"></div>
+    <div class="white w3"></div>
+    <div class="white w4"></div>
+    <div class="yellow"></div>
+    <div class="black"></div>
+    <div class="blue"></div>
+    <div class="white w5"></div>
+  </div>
+
+</body>
+
+</html>
