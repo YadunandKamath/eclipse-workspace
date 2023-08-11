@@ -1,0 +1,17 @@
+body{
+    background-color: #EAF6F6;
+}
+footer{
+    justify-content: center;
+}
+h1{
+    color: #66BFBF;
+}
+h3{
+    color: #66BFBF;
+}
+hr{
+    height: 2px;
+    border-style: none;
+    background-color: white;
+}
