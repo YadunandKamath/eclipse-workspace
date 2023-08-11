@@ -1,0 +1,3 @@
+url = jdbc:postgresql://localhost:5432/org
+username = user1
+password = user1
