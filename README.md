@@ -1,1 +1,4 @@
-# eclipse-workspace
+# projects-workspace
+
+- Java projects
+- Web Development projects
